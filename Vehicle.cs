@@ -36,7 +36,7 @@ namespace cv5
                 throw new Exception("This amount of fuel won't fit into the tank.");
             }
         }
-        public void SetRadio(bool x)
+        public void SetRadio(bool x) // aj ked som dal public VehicleRadio tak som sa tohoto nevedel zbavit, nejako som nepochopil ako ste to mysleli
         {
             radio.SetRadio(x);
         }
