@@ -25,10 +25,7 @@ namespace cv5
         }
         public void SetPreset(int number, double freq)
         {
-            if (presets.ContainsKey(number))
-            {
-                throw new Exception("This preset is already taken.");
-            }
+            
             if (!radioStatus)
             {
                 throw new Exception("Radio is not on.");
